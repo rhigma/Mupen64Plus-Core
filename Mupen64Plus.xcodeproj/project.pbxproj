@@ -46,7 +46,6 @@
 		3D208E4B11824D7A00BEAA42 /* lgpl-license in Resources */ = {isa = PBXBuildFile; fileRef = 3D208CDA11824C2200BEAA42 /* lgpl-license */; };
 		3D208E4C11824D7B00BEAA42 /* gpl-license in Resources */ = {isa = PBXBuildFile; fileRef = 3D208CD911824C2200BEAA42 /* gpl-license */; };
 		3D208E981182550400BEAA42 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E971182550400BEAA42 /* OpenGL.framework */; };
-		3D208E9E1182551500BEAA42 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E9D1182551500BEAA42 /* libz.dylib */; };
 		3D208F821182B00300BEAA42 /* MupenGameCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D208F811182B00300BEAA42 /* MupenGameCore.m */; };
 		3D8B35D812260F9D00C4C844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D8B35D712260F9D00C4C844 /* main.m */; };
 		3DCABDBB166C4B89002F2066 /* jpeg.c in Sources */ = {isa = PBXBuildFile; fileRef = 94E6B875166C2A0A00082F27 /* jpeg.c */; };
@@ -93,7 +92,6 @@
 		8723F74A1F74A4D7003E572A /* ZSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8723F7321F74A49E003E572A /* ZSort.cpp */; };
 		872587AC1F57A7B500ECDD73 /* mupen64plus-video-angrylion-rdp-plus.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8759F0FA1F579625009CBC01 /* mupen64plus-video-angrylion-rdp-plus.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		8755038C1E74C51D002222F3 /* SDLStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F0801183E52F002995A1 /* SDLStubs.m */; };
-		8755038E1E74C51D002222F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E9D1182551500BEAA42 /* libz.dylib */; };
 		8755038F1E74C51D002222F3 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E971182550400BEAA42 /* OpenGL.framework */; };
 		875503901E74C51D002222F3 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC2145C166C6D7F0014251E /* libpng.a */; };
 		875503911E74C51D002222F3 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120F61711312600E868A8 /* OpenEmuBase.framework */; };
@@ -163,7 +161,6 @@
 		875505961E74E966002222F3 /* mupen64plus-video-GLideN64.so in CopyFiles */ = {isa = PBXBuildFile; fileRef = 875503951E74C51D002222F3 /* mupen64plus-video-GLideN64.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		875505971E74EB2D002222F3 /* GLideN64.custom.ini in Resources */ = {isa = PBXBuildFile; fileRef = 875503991E74C7BE002222F3 /* GLideN64.custom.ini */; };
 		8759F0F11F579625009CBC01 /* SDLStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D00F0801183E52F002995A1 /* SDLStubs.m */; };
-		8759F0F31F579625009CBC01 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E9D1182551500BEAA42 /* libz.dylib */; };
 		8759F0F41F579625009CBC01 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D208E971182550400BEAA42 /* OpenGL.framework */; };
 		8759F0F51F579625009CBC01 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC2145C166C6D7F0014251E /* libpng.a */; };
 		8759F0F61F579625009CBC01 /* OpenEmuBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6D120F61711312600E868A8 /* OpenEmuBase.framework */; };
@@ -1206,7 +1203,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8755038E1E74C51D002222F3 /* libz.dylib in Frameworks */,
 				8755038F1E74C51D002222F3 /* OpenGL.framework in Frameworks */,
 				875503901E74C51D002222F3 /* libpng.a in Frameworks */,
 				875503911E74C51D002222F3 /* OpenEmuBase.framework in Frameworks */,
@@ -1217,7 +1213,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8759F0F31F579625009CBC01 /* libz.dylib in Frameworks */,
 				8759F0F41F579625009CBC01 /* OpenGL.framework in Frameworks */,
 				8759F0F51F579625009CBC01 /* libpng.a in Frameworks */,
 				8759F0F61F579625009CBC01 /* OpenEmuBase.framework in Frameworks */,
@@ -1232,7 +1227,6 @@
 				3D208E981182550400BEAA42 /* OpenGL.framework in Frameworks */,
 				551FEEB025B64D9000B9030D /* linkage.o in Frameworks */,
 				C6D120F71711312600E868A8 /* OpenEmuBase.framework in Frameworks */,
-				3D208E9E1182551500BEAA42 /* libz.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
