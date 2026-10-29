@@ -4630,6 +4630,10 @@ static void arch_init(void) {
     if(offset>=-134217728LL&&offset<134217728LL) {
       *ptr4=0x14000000|((offset>>2)&0x3ffffff); // direct branch
     }else{
+      // x18 as the branch register: it is the only register slot the allocator
+      // never hands out (EXCLUDE_REG on Darwin), so no program value can be
+      // disturbed here. The target is a runtime function in C that does not
+      // rely on x18 anyway.
       *ptr4=0x58000000|((8>>2)<<5)|18; // ldr x18,[pc,#8]
       *(ptr4+1)=0xd61f0000|(18<<5);
     }
