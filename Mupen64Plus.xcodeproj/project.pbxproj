@@ -3516,14 +3516,6 @@
 					"-DNOUNCRYPT",
 					"-fno-strict-aliasing",
 				);
-				"OTHER_CFLAGS[arch=arm64]" = (
-					"-DIN_OPENEMU",
-					"-DM64P_PARALLEL",
-					"-DNDEBUG",
-					"-DNOCRYPT",
-					"-DNOUNCRYPT",
-					"-fno-strict-aliasing",
-				);
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-fvisibility-inlines-hidden",
@@ -3584,14 +3576,6 @@
 					"-DIN_OPENEMU",
 					"-DM64P_PARALLEL",
 					"-DDYNAREC",
-					"-DNDEBUG",
-					"-DNOCRYPT",
-					"-DNOUNCRYPT",
-					"-fno-strict-aliasing",
-				);
-				"OTHER_CFLAGS[arch=arm64]" = (
-					"-DIN_OPENEMU",
-					"-DM64P_PARALLEL",
 					"-DNDEBUG",
 					"-DNOCRYPT",
 					"-DNOUNCRYPT",
